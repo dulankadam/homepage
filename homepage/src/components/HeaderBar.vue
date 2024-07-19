@@ -26,7 +26,7 @@
   
   <script>
   export default {
-    name: 'HeaderBar'
+    name: 'HeaderBar',
   };
   </script>
   
@@ -34,7 +34,7 @@
   .container {
     width: 100%;
     height: 100%;
-    padding: 12px 234px 12px 546px;
+    padding: 10px;
     background: #FFDA6E;
     display: flex;
     justify-content: flex-end;

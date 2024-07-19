@@ -2,7 +2,8 @@
   <div class="footer-container">
     <div class="footer-top">
       <div class="footer-brand">
-        <div class="brand-logo">
+        <div class="brand-dev">
+          <div class="brand-logo">
           <div class="outer-circle"></div>
           <div class="inner-circle">
             <div class="dot"></div>
@@ -12,6 +13,8 @@
           <p class="brand-title">Global</p>
           <p class="brand-subtitle">Edulink</p>
         </div>
+        </div>
+       
         <p class="brand-description">
           Global Edulink offers accessible, high-quality online education for all, with flexible programs tailored to fit into daily life, empowering learners worldwide to achieve personal and professional goals.
         </p>
@@ -94,9 +97,9 @@
           <img src="../assets/image 59.png"  />
           <img src="../assets/image 60.png"  />
           <img src="../assets/image 61.png"  />
-          <img src="../assets/image 62.png"  />
           <img src="../assets/image 63.png"  />
-          <img src="../assets/image 64.png"  />
+          <img src="../assets/image 73.png"  />
+          <img src="../assets/image 74.png"  />
         </div>
       </div>
     </div>
@@ -210,7 +213,10 @@ export default {
   font-weight: 400;
   line-height: 24px;
 }
-
+.brand-dev{
+  display: flex;
+  gap: 4px;
+}
 .social-links {
   display: flex;
   gap: 4px;
