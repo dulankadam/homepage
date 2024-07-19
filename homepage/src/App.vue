@@ -1,24 +1,23 @@
 <template>
   <div id="app">
-    <HeaderBarVue/>
-  
+  <Fotter/>
   
   </div>
 </template>
 
 <script>
-import GlobalEdulink from './components/Header.vue';
-import Fotter from './components/Fotter.vue';
+import bodyVue from './components/body.vue';
+
 import Header from './components/Header.vue';
 import HeaderBarVue from './components/HeaderBar.vue';
-
+import Body from './components/body.vue';
+import Fotter from './components/Fotter.vue';
 
 
 export default {
   name: 'App',
   components: {
-    Header,
-    HeaderBarVue
+   Fotter
   
   },
 };

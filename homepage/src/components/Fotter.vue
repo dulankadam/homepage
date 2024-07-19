@@ -94,8 +94,8 @@
           </div>
         </div>
         <div class="logos">
-          <img class="logo-img" src="https://via.placeholder.com/189x63" />
-          <img class="logo-img" src="https://via.placeholder.com/80x62" />
+          <img class="logo-img" src="../assets/Facebook.png" />
+          <img class="logo-img" src="../assets/Instagram.png" />
           <img class="logo-img" src="https://via.placeholder.com/58x63" />
           <img class="logo-img" src="https://via.placeholder.com/60x65" />
         </div>
