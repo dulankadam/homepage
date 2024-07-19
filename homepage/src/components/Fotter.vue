@@ -16,11 +16,11 @@
           Global Edulink offers accessible, high-quality online education for all, with flexible programs tailored to fit into daily life, empowering learners worldwide to achieve personal and professional goals.
         </p>
         <div class="social-links">
-          <div class="social-icon"><img src="https://via.placeholder.com/24x24" /></div>
-          <div class="social-icon"><img src="https://via.placeholder.com/24x24" /></div>
-          <div class="social-icon"><img src="https://via.placeholder.com/24x24" /></div>
-          <div class="social-icon"><img src="https://via.placeholder.com/24x24" /></div>
-          <div class="social-icon"><img src="https://via.placeholder.com/24x24" /></div>
+          <div class="social-icon"><img src="../assets/Facebook.png" /></div>
+          <div class="social-icon"><img src="../assets/Instagram.png" /></div>
+          <div class="social-icon"><img src="../assets/TwitterX.png" /></div>
+          <div class="social-icon"><img src="../assets/Linkdin.png" /></div>
+          <div class="social-icon"><img src="../assets/YouTube Logo.png" /></div>
         </div>
         <div class="verify-button">
           <span>Verify your certificate</span>
@@ -73,28 +73,30 @@
     <div class="footer-bottom">
       <div class="language-selector">
         <div class="language-option">
+          
           <div class="checkmark"></div>
           <span>English</span>
         </div>
         <button class="apply-button">Apply</button>
       </div>
+    
       <div class="footer-logos">
-        <img src="https://via.placeholder.com/189x63" />
-        <img src="https://via.placeholder.com/80x62" />
-        <img src="https://via.placeholder.com/58x63" />
-        <img src="https://via.placeholder.com/60x65" />
+        <img src="../assets/image 26.png" />
+        <img src="../assets/footer-logo-1.png.png" />
+        <img src="../assets/footer-logo-2.png.png"/>
+        <img src="./assets/footer-logo-3.png.png"/>
       </div>
       <div class="footer-copyright">
         <div class="copyright-text">
           Copyright © 2015 - 2024 - Global Edulink All rights reserved
         </div>
         <div class="certification-logos">
-          <img src="https://via.placeholder.com/106x26" />
-          <img src="https://via.placeholder.com/86x26" />
-          <img src="https://via.placeholder.com/53x41" />
-          <img src="https://via.placeholder.com/85x41" />
-          <img src="https://via.placeholder.com/88x41" />
-          <img src="https://via.placeholder.com/79x41" />
+          <img src="../assets/image 59.png"  />
+          <img src="../assets/image 60.png"  />
+          <img src="../assets/image 61.png"  />
+          <img src="../assets/image 62.png"  />
+          <img src="../assets/image 63.png"  />
+          <img src="../assets/image 64.png"  />
         </div>
       </div>
     </div>
@@ -115,7 +117,7 @@ export default {
   background: #f4eee8;
   display: flex;
   flex-direction: column;
-  gap: 64px;
+  gap: 50px;
 }
 
 .footer-top {
@@ -168,9 +170,22 @@ export default {
 }
 
 .brand-text {
-  
-  flex-direction: column;
-  gap: 24px;
+  display: flex;
+  align-items: center; 
+}
+
+
+
+.brand-title {
+  font-size: 24px;
+  margin: 0; 
+  margin-right: 8px; 
+}
+
+.brand-subtitle {
+  font-size: 24px;
+  margin: 0; 
+  font-weight: bold; 
 }
 
 .brand-title {
@@ -229,7 +244,7 @@ export default {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 62px;
+  gap: 30px;
 }
 
 .resources,
@@ -303,4 +318,66 @@ li {
   font-family: Plus Jakarta Sans;
   font-weight: 600
 }
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.footer-links div {
+  flex: 1;
+  margin: 0 0px;
+}
+
+.footer-links h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #3D3D3D;
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  font-size: 14px;
+  color: #3D3D3D;
+  margin-bottom: 8px;
+  white-space: nowrap; /* Prevents text wrapping */
+}
+
+.footer-links p {
+  font-size: 14px;
+  color: #3D3D3D;
+}
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contact-info p {
+  margin: 0; /* Remove default margin */
+  white-space: nowrap; /* Prevent line breaks */
+}
+.footer-copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  color: #333;
+}
+
+.copyright-text {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.certification-logos img {
+  margin-right: 10px; /* Adjust spacing between logos */
+}
+
 </style>
