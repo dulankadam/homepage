@@ -7,7 +7,7 @@
         <div class="rounded-background" />
         <div class="light-background" />
         <div class="orange-background" />
-        
+       
         <div class="info-box">
           <div class="info-item" style="top: 299.97px; left: 44px;">
             <div class="info-icon">
@@ -43,18 +43,18 @@
           </div>
           <img class="placeholder-image" src="../assets/image.png" />
         </div>
-
+        <!-- <HeaderContents></HeaderContents> -->
         <div class="empty-box" />
       </div>
     </div>
   </template>
   
   <script>
-  import HomePage from './HomePage.vue';
+  import HeaderContents from './HeaderContents.vue';
 
   export default {
     name: 'Header',
-    HomePage
+    HeaderContents
   };
   </script>
   

@@ -1,10 +1,13 @@
 <template>
      <div class="container">
         <main class="main">
+            <div class="alignment">
             <section class="hero">
             <h1>
                 <span class="upskill-font">Upskill from Anywhere with </span><br/>
-                <span>Industry-Recognized Learning</span></h1>
+                <span>Industry-Recognized </span><br/>
+                <span class="upskill-font">Learning</span>
+            </h1>
             <p>Flexible, accredited courses to help you learn and advance from anywhere in the world.</p>
             <div class="search-bar">
                 <input type="text" placeholder="What will you be learning today?" />
@@ -22,6 +25,7 @@
                 </div>
             </div>
             </section>
+        </div>
         </main>
       </div>
   </template>
@@ -90,7 +94,6 @@
   
   .search-bar {
     display: flex;
-    justify-content: center;
     margin-bottom: 2rem;
   }
   
@@ -112,7 +115,6 @@
   
   .features {
     display: flex;
-    justify-content: center;
     gap: 1.5rem;
   }
   
@@ -128,8 +130,12 @@
   }
 
   .upskill-font{
-    font-weight: 100;
+    font-weight: bold;
     color: black !important;
+  }
+
+  .alignment{
+    text-align: left;
   }
   </style>
   

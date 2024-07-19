@@ -4,7 +4,7 @@
     <NavBarVue></NavBarVue>
     <Header></Header>
     <HeaderContents/>
-   <HomePageVue></HomePageVue>
+   <!-- <HomePageVue></HomePageVue> -->
     
     <Fotter/>
   </div>
