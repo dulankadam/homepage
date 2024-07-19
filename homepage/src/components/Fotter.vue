@@ -116,11 +116,11 @@ export default {
 .footer-container {
   width: 100%;
   height: 100%;
-  padding: 66px 234px 54px;
   background: #f4eee8;
   display: flex;
   flex-direction: column;
   gap: 50px;
+  padding: 0 65px !important;
 }
 
 .footer-top {
@@ -158,8 +158,7 @@ export default {
   position: absolute;
   background: white;
   border-radius: 9999px;
-  top: 8.37px;
-  left: 8.37px;
+  left: 72.3px;
 }
 
 .dot {

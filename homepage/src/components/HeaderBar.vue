@@ -34,7 +34,7 @@
   .container {
     width: 100%;
     height: 100%;
-    padding: 10px;
+    padding: 3px;
     background: #FFDA6E;
     display: flex;
     justify-content: flex-end;
@@ -44,13 +44,13 @@
   .content {
     display: flex;
     align-items: center;
-    gap: 304px;
+    gap: -1px;
   }
   
   .text-section {
     display: flex;
     align-items: center;
-    gap: 108px;
+    gap: 8px;
   }
   
   .headline {
@@ -85,11 +85,12 @@
     font-size: 18px;
     font-family: 'Outfit', sans-serif;
     font-weight: 400;
+    margin-right: 50px;
   }
   
   .offer-button {
     width: 145px;
-    padding: 10px 15px;
+    padding: 4px 16px;
     background: #18191D;
     border-radius: 8px;
     display: flex;
@@ -99,7 +100,7 @@
   
   .button-text {
     color: white;
-    font-size: 16px;
+    font-size: 14px;
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-weight: 700;
   }
