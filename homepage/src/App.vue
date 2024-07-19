@@ -1,16 +1,25 @@
-<script setup>
-
-</script>
-
 <template>
-  <header>
-   
-  </header>
-
- 
+  <div id="app">
+    <HeaderBarVue/>
+  
+  
+  </div>
 </template>
 
-<style scoped>
+<script>
+import GlobalEdulink from './components/Header.vue';
+import Fotter from './components/Fotter.vue';
+import Header from './components/Header.vue';
+import HeaderBarVue from './components/HeaderBar.vue';
 
 
-</style>
+
+export default {
+  name: 'App',
+  components: {
+    Header,
+    HeaderBarVue
+  
+  },
+};
+</script>
