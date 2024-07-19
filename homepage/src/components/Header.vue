@@ -1,10 +1,13 @@
 <template>
     <div class="container">
-      <div class="background" />
+        <div class="logo">
+       <img src="@/assets/Mask group.png" alt="Global Edulink"> 
+        </div>
       <div class="content">
         <div class="rounded-background" />
         <div class="light-background" />
         <div class="orange-background" />
+        
         <div class="info-box">
           <div class="info-item" style="top: 299.97px; left: 44px;">
             <div class="info-icon">
@@ -40,14 +43,18 @@
           </div>
           <img class="placeholder-image" src="../assets/image.png" />
         </div>
+
         <div class="empty-box" />
       </div>
     </div>
   </template>
   
   <script>
+  import HomePage from './HomePage.vue';
+
   export default {
-    name: 'Header'
+    name: 'Header',
+    HomePage
   };
   </script>
   
@@ -85,14 +92,12 @@
     height: 518px;
     background: #F4EEE8;
     position: absolute;
-    left: 1762.67px;
-    top: 602.03px;
+    
   }
   
   .orange-background {
     width: 539px;
     height: 485.10px;
-    background: #FF965B;
     position: absolute;
     left: 1947.67px;
     top: 1214.93px;
